@@ -1,10 +1,10 @@
-function App() {
+import React from 'react';
+import Home from './pages/Home';
 
+function App() {
   return (
-    <>
-      <h1>2TIAF</h1>
-    </>
-  )
+   <Home />
+  );
 }
 
 export default App
